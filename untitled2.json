@@ -1,0 +1,36 @@
+[{
+        "description": "Basic division",
+        "input_data": {
+            "num1": 10,
+            "num2": 3
+        },
+        "expected_output": 3.3333333333333335,
+        "expected_error": ""
+    },
+    {
+        "description": "Division by zero",
+        "input_data": {
+            "num1": 10,
+            "num2": 0
+        },
+        "expected_output": None,  
+        "expected_error": "Cannot divide by zero!"
+    },
+    {
+        "description": "Invalid input (string)",
+        "input_data": {
+            "num1": "hello",
+            "num2": 5
+        },
+        "expected_output": None,  
+        "expected_error": "Invalid input: Both numbers must be numeric."
+    },
+    {
+        "description": "Float division",
+        "input_data": {
+            "num1": 4.5,
+            "num2": 2.2
+        },
+        "expected_output": 2.0454545454545454,
+        "expected_error": ""
+    }]

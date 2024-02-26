@@ -1,0 +1,56 @@
+[
+  {
+    "input": {
+      "number": 121
+    },
+    "output": true
+  },
+  {
+    "input": {
+      "number": -121
+    },
+    "output": false
+  },
+  {
+    "input": {
+      "number": 10
+    },
+    "output": false
+  },
+  {
+    "input": {
+      "number": "121"
+    },
+    "output": true
+  },
+  {
+    "input": {
+      "number": "10"
+    },
+    "output": false
+  },
+  {
+    "input": {
+      "number": ""
+    },
+    "output": false
+  },
+  {
+    "input": {
+      "number": " "
+    },
+    "output": false
+  },
+  {
+    "input": {
+      "number": [1, 2, 1]
+    },
+    "output": true
+  },
+  {
+    "input": {
+      "number": [1, 2, 3]
+    },
+    "output": false
+  }
+]
